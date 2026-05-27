@@ -2,8 +2,8 @@
 
 A responsive React app that helps users visualize tax savings through crypto tax loss harvesting.
 
-## Live Demo
-[koinx-tax-harvesting.vercel.app](https://koinx-tax-harvesting.vercel.app)
+## Live Dem
+[koinx-tax-harvesting.vercel.app](https://assignment-knoix.vercel.app/)
 
 ## Screenshots
 
