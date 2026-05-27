@@ -37,6 +37,6 @@ A responsive React app that helps users visualize tax savings through crypto tax
 - Mock APIs using Promises
 
 ## Assumptions
-- All amounts are in USD
-- Mock data is used in place of real API calls
-- Short term and long term gains are calculated separately
+- All amounts are in USD.
+- Mock data is used in place of real API calls.
+- Short term and long term gains are calculated separately.
