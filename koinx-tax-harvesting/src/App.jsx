@@ -84,14 +84,17 @@ function App() {
               Tax Harvesting
             </h1>
 
-            <a
-              href="https://koinx.com"
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-500 text-sm underline"
-            >
-              How it works?
-            </a>
+           <div className="relative group">
+  <span className="text-blue-500 text-sm underline cursor-pointer">
+    How it works?
+  </span>
+
+  <div className="absolute left-0 top-6 w-72 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-xl shadow-lg p-4 text-sm text-gray-600 dark:text-gray-300 z-50 hidden group-hover:block">
+    <p className="font-semibold text-gray-800 dark:text-white mb-2">How Tax Harvesting Works</p>
+    <p className="mb-2">Tax loss harvesting is a strategy where you sell assets at a loss to offset your capital gains and reduce your overall tax liability.</p>
+    <p>Select the holdings you want to harvest below and see your updated tax savings in real time.</p>
+  </div>
+</div>
           </div>
 
           <DisclaimerBanner />
